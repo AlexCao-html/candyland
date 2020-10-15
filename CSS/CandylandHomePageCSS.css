@@ -4,4 +4,5 @@ body{
 
 .nav__item{
 	color: #0000ff;
+	text-decoration: none;
 }
