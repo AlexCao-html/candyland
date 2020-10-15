@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+div{
+  position: absolute;
+  font-family: 'Piazzolla', serif;
+  font-style: italic;
+  display: none;
+  padding: 25px;
+  margin: 0;
+  border-radius: 100%;
+  background-color: #fff;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+p#cerrentScreenSize{
+  display: none;
+}
+
+div:hover p#cerrentScreenSize{
+  display: block;
+}
+
+@media screen and (max-width: 215px) {
+  div{
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  body{
+    background-color: #696969;
+  }
+
+  #xxs{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  body{
+    background-color: #0000ff;
+  }
+
+  #xxs{
+    display: none;
+  }
+
+  #xs{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body{
+    background-color: #00ff00;
+  }
+
+  #xs{
+    display: none;
+  }
+
+  #sm{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body{
+    background-color: #ffff00;
+  }
+
+  #sm{
+    display: none;
+  }
+
+  #md{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body{
+    background-color: #ff0000;
+  }
+
+  #md{
+    display: none;
+  }
+
+  #lr{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  body{
+    background-color: #453015;
+  }
+
+  #lr{
+    display: none;
+  }
+
+  #xl{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  body{
+    background-color: #000000;
+  }
+  #xl{
+    display: none;
+  }
+
+  #xxl{
+    display: block;
+  }
+}

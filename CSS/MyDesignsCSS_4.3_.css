@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#title{
+  padding: 10px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#accordion-wrapper{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #aaa;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.card-title{
+  font-size: 22px;
+  margin: 0;
+}
+
+.card-body{
+  display: none;
+  cursor: default;
+}
+
+ul li a{
+  display: inline-block;
+  width: 100%;
+  background-color: mediumpurple;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid purple;
+  margin-top: 5px;
+}

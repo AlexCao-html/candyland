@@ -1,0 +1,70 @@
+body{
+  padding: 5px;
+  margin: 5px;
+}
+header{
+  background: #F0FFFF;
+  background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+}
+h1{
+  color: #FF00FF;
+  font-size: 50px;
+}
+h2{
+  color: #1E90FF;
+}
+nav a{
+  display: inline-block;
+  width: 22%;
+  background-color: #FFF0F5;
+  border-radius: 10px;
+  border: double;
+  text-decoration: none;
+}
+a:active{
+  background: #7B68EE;
+  color: #6495ED;
+}
+img{
+  display: block;
+}
+.left{
+  display: inline-block;
+  background-color: #008080;
+}
+.right{
+  display: inline-block;
+  float: left;
+}
+table{
+  font-family: "Courier New" Courier "Lucida Console"  monospace;
+  font-size: 50%;
+  font-weight: bolder;
+  line-height: 50%;
+  width: 50%;
+  margin: 20%;
+}
+th{
+  font-family: Georgia "Palatino Linotype" "Book Antiqua" "Times New Roman" Times serif;
+  border-bottom: 10%;
+  font-style: italic;
+}
+tr{
+  text-align: center;
+  background-color: rgba(0, 255, 255, .6);
+}
+tr:hover{
+  background-color: rgba(0, 255, 255, 1);
+}
+tr:first-child{
+  text-align: left;
+}
+td{
+  font-family: "Comic Sans MS" cursive sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-style: italic;
+}
+section{
+  background-color: #87CEFA;
+}

@@ -1,0 +1,175 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+/* SELECTION */
+::selection{
+   background-color: #bfbfff;
+   color: #0000bf;
+}
+
+/* EVERYTHING */
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+/* ID */
+#brand{
+  display: block;
+  text-align: center;
+}
+
+#brand a{
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -webkit-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -moz-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -o-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -ms-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+}
+
+#brand a:hover{
+  color: #8080ff;
+}
+
+#logo{
+  width: 75px;
+}
+
+/* Class */
+.nav-toggle{
+  position: absolute;
+  font-size: 48px;
+  right: 1rem;
+  top: 0;
+  cursor: pointer;
+}
+
+.nav-close{
+  position: absolute;
+  font-size: 24px;
+  right: 1rem;
+  top: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.dark-overlay{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+  transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -webkit-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -moz-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -o-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -ms-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  display: none;
+}
+
+/* TAG */
+html, body{
+  overflow: hidden;
+  background: linear-gradient();
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-variant: small-caps;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+img{
+  font-size: 100%;
+}
+
+header{
+
+}
+
+nav{
+  position: absolute;
+  width: 20vw;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -webkit-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -moz-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -o-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -ms-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  z-index: 9999;
+}
+
+nav a{
+  position: relative;
+  top: 48px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: #8080ff;
+  margin: 0.5vh 0.5vw;
+  padding-right: 20vw;
+  font-size: 125%;
+  display: none;
+  transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -webkit-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -moz-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -o-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+  -ms-transition: all 0.3s cubic-bezier(0.93, 0.43, 0.66, 0.29);
+}
+
+nav a:hover{
+  color: #bfbfff;
+  background-color: #070707
+}
+
+nav a.active{
+  display: block;
+}
+
+main{
+
+}
+
+main img{
+  display: inline-block;
+}
+
+footer{
+  text-align: center;
+  font-size: 100%;
+  font-style: italic;
+}
+
+/* MEDIA */
+@media screen and (max-width: 500px) {
+  h3 + a{
+    margin: 100px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nav-toggle{
+    font-size: 24px;
+  }
+}

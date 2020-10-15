@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #666666ff;
+}
+
+nav ul{
+  list-style: none;
+  background-color: #444444ff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  width: calc(100% / 3 - 2.5% * 3);
+  border-right: 1px solid #000000ff;
+  height: 50px;
+  line-height: 50px;
+  font-size: 140%;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+nav > ul > li:first-child{
+  border-left: 1px solid #000000ff;
+}
+
+nav li li{
+  border-right: none;
+}
+
+nav a, nav span{
+  text-decoration: none;
+  color: #ffffffff;
+  display: block;
+  padding-left: 15px;
+  transition: .5s background-color;
+}
+
+nav a:hover, nav span:hover{
+  background-color: #005f5f;
+}
+
+nav li li{
+  font-size: .8em;
+}
+
+nav > ul > li{
+  text-align: center;
+}
+
+nav > ul > li > a, nav > ul > li > p{
+  padding-left: 0;
+}
+
+nav li ul{
+  position: absolute;
+  display: none;
+  width: inherit;
+}
+
+nav li:hover ul{
+  display: block;
+}
+
+nav li ul li{
+  display: block;
+  width: 100%;
+}
+
+div.Content{
+  color: #ffffffff
+}
+
+@media all and (max-height: 1164px) {
+
+}

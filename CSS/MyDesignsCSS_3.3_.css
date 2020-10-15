@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+html body{
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  font-size: 16px;
+  color: #333;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html body div ul li{
+  list-style: none;
+}
+
+html body .side-nav{
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  width: 330px;
+  height: 100vh;
+  background-color: #000;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  border-left: 1px solid #ccc;
+  padding: 15px;
+}
+
+html body div ul li a{
+  color: #99f3ff;
+  background-color: #111;
+}
+
+html body div ul li a:active{
+  color: #b3e0ff;
+}
+
+html body div ul li a:hover{
+  color: #c0ffd4;
+}
+
+html body div ul li h2{
+  font-size: 24px;
+  color: #05e2ff;
+  background-color: #0f0f0f;
+  cursor: default;
+}
+#logo{
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #f9ffec;
+}

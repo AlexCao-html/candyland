@@ -1,0 +1,267 @@
+body{
+  margin: 0;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.45px;
+  line-height: 1.4;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center center;
+}
+
+body.toggled{
+
+}
+
+::selection{
+  background-color: #333;
+  color: #fff;
+}
+
+::-webkit-::selection{
+  background-color: #333;
+  color: #fff;
+}
+
+::-moz-::selection{
+  background-color: #333;
+  color: #fff;
+}
+
+::-o-::selection{
+  background-color: #333;
+  color: #fff;
+}
+
+::-ms-::selection{
+  background-color: #333;
+  color: #fff;
+}
+
+p{
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+a:link{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:visited{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+ul, ol, li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#dark-overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 99;
+}
+
+header{
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: #476284;
+  overflow: hidden;
+  margin-bottom: 1000px;
+}
+
+.header-bg{
+  position: absolute;
+  width: 100%;
+  height: 300%;
+  background-image: url("../IMG/Sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-darken{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.moto-wrapper{
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: #abc;
+  margin: 0 30px;
+}
+
+.moto-wrapper h1{
+  font-size: 45px;
+  font-weight: 600;
+  padding: 5px 15px;
+}
+
+.moto-wrapper h2{
+  font-size: 33.75px;
+  font-weight: 400;
+  padding: 5px 15px;
+}
+
+.moto-wrapper p, .moto-wrapper div, .moto-wrapper a{
+  font-size: 22.5px;
+  font-weight: 200;
+  padding: 5px 15px;
+}
+
+header nav{
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+}
+
+.logo:link{
+  color: #333;
+  font-size: 22px;
+  margin: 0 30px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.logo:visited{
+  color: #333;
+  font-size: 22px;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: right;
+}
+
+.logo:hover{
+  color: #000;
+}
+
+.logo:active{
+  color: #000;
+}
+
+.ham-menu:link{
+  color: #333;
+  font-size: 32px;
+  float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.ham-menu:visited{
+  color: #333;
+  font-size: 32px;
+  float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.ham-menu:active{
+  color: #000;
+}
+
+.ham-menu:hover{
+  color: #000;
+}
+
+#slide-menu{
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  top: 0;
+  right: -281px;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  padding: 0 15px;
+  z-index: 100;
+  transition: all 0.2s cubic-bezier(0, 0.57, 0.74, 1.06);
+  -webkit-transition: all 0.2s cubic-bezier(0, 0.57, 0.74, 1.06);
+  -moz-transition: all 0.2s cubic-bezier(0, 0.57, 0.74, 1.06);
+  -o-transition: all 0.2s cubic-bezier(0, 0.57, 0.74, 1.06);
+  -ms-transition: all 0.2s cubic-bezier(0, 0.57, 0.74, 1.06);
+}
+
+#slide-menu.toggled{
+  right: 0;
+}
+
+.ham-menu-close{
+  float: right;
+  margin: 23px 30px 0;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#slide-menu ul{
+  margin-top: 60px;
+}
+
+#slide-menu ul li{
+  padding: 15px 0;
+  display: block;
+  border-top: 1px solid #ccc;
+}
+
+#slide-menu ul li a:link{
+  font-size: 18px;
+  color: #333;
+}
+
+#slide-menu ul li:first-child{
+  border: none;
+}
+
+#slide-menu ul li a:visited{
+  font-size: 18px;
+  color: #333;
+}
+
+#slide-menu ul li a:active{
+  color: #333;
+}

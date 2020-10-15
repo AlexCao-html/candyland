@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Raleway&family=Shadows+Into+Light&family=Bangers&display=swap');
+body{
+  margin: 0;
+  font-family: 'Lobster', 'Pacifico', 'Shadows Into Light', 'cursive';
+  background-color: #bbbbbb;
+}
+
+a{
+  color: #000000
+}
+
+.header{
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #00f1fd;
+}
+.header ul a{
+  display: block;
+  padding: 2px;
+  border: 2.5px inset #00c1cb;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease;;
+  -moz-transition: 0.3s ease;;
+  -o-transition: 0.3s ease;;
+  -ms-transition: 0.3s ease;;
+}
+
+.header ul a:hover{
+  background-color: #bbfcff;
+  border: 2.5px outset #00c1cb;
+}
+
+.header ul a:focus{
+  background-color: #bbfcff;
+  border: 2.5px outset #00c1cb;
+}
+
+.header .logo{
+  float: left;
+  display: block;
+  font-size: 2em;
+  margin: 10px 20px;
+  padding: 5px;
+  font-family: 'Bangers';
+  text-decoration: none;
+  background-color: #bbbbbb;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+}
+
+.header .logo:hover{
+  background-color: #bbbbbbcc;
+}
+
+.header ul li .Versions
+{
+  font-family: 'Shadows Into Light';
+}
+
+.header ul li .Content
+{
+  font-family: 'Raleway';
+}
+
+.header ul li .Design
+{
+  font-family: 'Lobster', 'Pacifico';
+}

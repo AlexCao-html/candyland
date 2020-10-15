@@ -1,0 +1,86 @@
+body{
+  background: rgba(210, 105, 30, 1);
+  margin: 2%;
+}
+h1{
+  font-size: 150%;
+  text-align: center;
+  font-variant: small-caps;
+  font-family: "Brush Script MT", "Brush Script Std", "Courier New", Courier, fantasy, cursive, monospace;
+}
+header{
+  color: #8B0000;
+  -webkit-background: linear-gradient(#FFBA95, #FF6347);
+  -moz-background: linear-gradient(#FFBA95, #FF6347);
+  -o-background: linear-gradient(#FFBA95, #FF6347);
+  background: linear-gradient(#FFBA95, #FF6347);
+  text-align: center;
+  border: thick double;
+  border-radius: 25px;
+}
+nav{
+  font-variant: small-caps;
+  font-size: 150%;
+  font-family: "Courier New", Courier, monospace;
+}
+footer{
+  background: rgb(255, 142.5, 110);
+}
+nav a{
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 50px;
+  height: 60px;
+  color: #00FA9A;
+  background-color: #FFF0F5;
+  text-decoration: none;
+  margin: 1% 5% 1% 0;
+  padding: 1% 5%;
+  border-radius: 25px;
+  width: 22%;
+}
+.current{
+  background-color: #00FA9A;
+  color: #0000FF;
+}
+nav a:hover{
+  border-radius: 0;
+}
+nav a:focus{
+  background-color: #FFFF00
+}
+h2{
+  color: #FF0000;
+  background: rgba(255, 160, 122, 1);
+}
+details{
+  font-style: italic;
+  background-color: rgba(255, 218, 185, 1);
+  font-variant: small-caps;
+  color: #FFA500;
+}
+summary{
+  font-style: normal;
+}
+p{
+  color: #FFA500;
+  background-color: rgba(255, 239, 213, 1);
+}
+.half{
+  display: inline-block;
+  width: 45%;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: double #800000;
+  margin-top: 2%;
+}
+.whole{
+  display: inline-block;
+  width: 90%;
+  clear: both;
+  border: double #800000;
+}
+li{
+  font-variant: small-caps;
+}
