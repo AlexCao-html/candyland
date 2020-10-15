@@ -45,6 +45,15 @@ body{
   width: 10vw;
 }
 
+a{
+  text-decoration: none;
+  color: #bfbfff;
+}
+
+a:hover{
+  color: #8080ff;
+}
+
 @media screen and (max-width: 1050px) {
   .item{
     padding-right: 0.5vw;
