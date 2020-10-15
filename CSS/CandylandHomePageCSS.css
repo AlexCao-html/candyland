@@ -2,6 +2,6 @@ body{
 	background-color: #ff1493;
 }
 
-nav ul li a{
+.nav__item{
 	color: #0000ff;
 }
