@@ -9,7 +9,7 @@
 }
 
 body{
-	background-color: deeppink;
+
 }
 
 a{
@@ -18,9 +18,15 @@ a{
 	display: inline-block;
 }
 
+a:hover{
+	color: #8080ff;
+}
+
 #home{
-	font-weight: 700;
+	position: absolute;
+	font-weight: 900;
 	font-size: 2rem;
+	top: 0;
 }
 
 li{
@@ -30,4 +36,47 @@ li{
 
 nav ul li a{
 	margin-top: 1vh;
+}
+
+header{
+	width: 100vw;
+	height: 35vh;
+	background-color: #ff1493;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+
+header nav{
+	background-color: #ff33CC;
+	width: 100vw;
+	height: 35vh;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main{
+	background-color: #bfbfff;
+	width: 100vw;
+	height: 35vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ff00ff;
+}
+
+footer{
+	width: 100vw;
+	height: 30vh;
+	display: flex;
+	background-color: #888;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
 }
