@@ -5,6 +5,7 @@ body{
 a{
 	color: #bfbfff;
 	text-decoration: none;
+	display: inline-block;
 }
 
 #home{
