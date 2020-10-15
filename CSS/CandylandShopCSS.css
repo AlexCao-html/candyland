@@ -58,13 +58,13 @@ a:hover{
   .item{
     padding-right: 0.5vw;
     border-right: none;
-    border-bottom: 1vw solid #8080ff;
+    border-bottom: 1vh solid #8080ff;
   }
 
   .price{
     padding-left: 0.5vw;
     border-left: none;
-    border-top: 1vw solid #8080ff;
+    border-top: 1vh solid #8080ff;
   }
 
   .item, .price{
