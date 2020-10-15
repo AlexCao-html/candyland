@@ -1,13 +1,12 @@
 body{
-	background-color: #000;
+	background-color: deeppink;
 }
 
 a{
-	color: #00ffff;
+	color: #bfbfff;
 	text-decoration: none;
 }
 
 #home{
 	font-weight: 700;
-	color: #bfbfff;
 }
